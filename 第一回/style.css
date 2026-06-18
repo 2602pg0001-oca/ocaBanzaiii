@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    height: 80px;
+    background-color:black;
+    color: white;
+    justify-content: space-around;
+}
+section{
+    background-image: url(aerial-view-tokyo-cityscape-with-fuji-mountain-japan_335224-148.avif);
+    color:white
+}
