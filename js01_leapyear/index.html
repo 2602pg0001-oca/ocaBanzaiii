@@ -24,7 +24,7 @@
         }
         const calc_leap = (year) => {
             const yNum = Number(year);
-            if(yNum %4==0 && yNum%100!=0 && yNum%400==0){
+            if(yNum %4==0 && yNum%100!=0 || yNum%400==0){
                 return true;
             }else{
                 return false;
